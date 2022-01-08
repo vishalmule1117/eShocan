@@ -1,0 +1,50 @@
+/*Default*/
+*{margin:0;padding:0;word-wrap:break-word!important;}
+body{margin:0;padding:0;box-sizing:border-box;width:100%;height:100%;font-family:'Merriweather',sans-serif}
+ul{list-style-type: none;}
+a{text-decoration: none;}
+/*Default*/
+
+/*Header*/
+    .eshocan_header{width:100%;position: fixed; display: flex;justify-content: space-between;z-index: 2;padding:0px 0px 0px 40px;}
+    nav{display:flex;justify-content:space-between;align-items:center;padding:0px 40px;}
+    nav img{width:60px;border-radius:40px}
+    .eshocan_nav_links{flex:1;text-align:right}
+    .eshocan_nav_links ul li{list-style:none;display:inline-block;padding:8px 12px;position:relative}
+    .eshocan_nav_links ul li a{font-family: Open Sans;color:#fff;text-decoration:none;font-weight: 600;font-size: 24px;line-height: 33px;}
+    .eshocan_nav_links ul li:after{content:'';width:0;height:2px;background:#f44336;display:block;margin:auto;transition:.5s}
+    .eshocan_nav_links ul li:hover:after{width:100%}
+    .eshocan_brand_logo{width:80px;height:80px;}
+/*Header end*/
+
+/*Hero Section Homepage*/
+    .eshocan_hero_section{overflow: hidden;position: relative;background: linear-gradient(180deg, #035294 32%, rgba(3, 82, 148, 0) 104.84%);opacity: 0.84;min-height: 100vh;width: 100%;background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../img/banner.png);background-position: center;background-size: cover;}
+    .eshocan_hero_main{display:flex;justify-content:space-between}
+    .eshocan_hero_desc{flex-basis:50%;border-radius:10px;margin-left:5%;margin-top:10%;box-sizing:border-box;transition:0.5x}
+    .eshocan_hero_desc h1{font-family:Merriweather;font-style:normal;font-weight:700;font-size:57px;line-height:72px;color:#FFF;margin:30px 0px}
+    .eshocan_hero_desc h4{font-family:Merriweather;font-style:normal;font-weight:300;font-size:29px;line-height:36px;color:#FFF}
+    .eshocan_hero_desc p{font-family:Open Sans;font-style:normal;font-weight:600;font-size:34px;line-height:46px;color:#FFF}
+    .eshocan_hero_media{float:right;filter:drop-shadow(0px 4px 4px rgba(0,0,0,0.25));border-radius:2%;transform:rotate(20Deg);position:absolute;top:-1%;margin-left:50%;z-index:1}
+    .eshocan_hero_media_small{display:inline-block;height:10%;margin-left:0}
+    .eshocan_hero_media_small img{width:24.5%;border-radius:5%}
+    .video{margin-top:-20%;width:180%;height:100vh;border-radius:12%}
+    .hero-btn{font-family: Open Sans;font-size: 28px;line-height: 34px;text-decoration-line: underline;color: #FFFFFF;font-weight: 400;    margin-top: 30px;display: block;}
+    .fa-arrow-circle-right{margin-left:15px}
+/*Hero Section Homepage end*/
+
+/*Footer*/
+    footer{background: #F4FAFF;padding:40px 0px 15px;}
+    .eshocan_footer_links_block{padding:0px 40px;margin-bottom: 20px;}
+    .eshocan_footer_links_block{display: flex;justify-content: space-between;align-items: flex-start;}
+    .eshocan_footer_links_block div{width:33.33%;}
+    .eshocan_footer_links_block ul li{margin-bottom: 10px;}
+    .eshocan_footer_links_block ul li a{font-family:Open Sans;color:#000000;font-weight:500;font-size: 15px;}
+    .eshocan_footer_links_block h2 a{font-family:Open Sans;font-weight: 900;font-size: 20px;line-height: 23px;color: #3F7EB3;margin-bottom: 15px;display: block;}
+    .eshocan_footer_links_block h3{font-family:Open Sans;font-weight: 900;font-size: 25px;line-height: 29px;color: #3F7EB3;margin-bottom: 15px;}
+    .eshocan_footer_copy{color:#000;font-weight: normal;font-size:15px;line-height:22px;font-family:Open Sans;margin-top:20px;padding-right: 55px;}
+    .eshocan_social_media{padding:0px 60px;}
+    .eshocan_social_media ul{display: flex;justify-content:flex-start;align-items: flex-start;}
+    .eshocan_social_media ul li {margin-right: 20px;}
+    .eshocan_social_media ul li a i{font-size: 30px; color:#000}
+    .eshocan_copy_write{font-family:Open Sans;text-align: center;font-weight: 500;font-size: 12px;line-height: 14px;text-transform: capitalize;color:#000;}
+/*Footer end*/
