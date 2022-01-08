@@ -46,4 +46,4 @@ config.yml
 /_site
 assets/logo.png
 /config
-img/movie3.mp4
+!img/.mp4

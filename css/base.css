@@ -10,11 +10,18 @@ a{text-decoration: none;}
     nav{display:flex;justify-content:space-between;align-items:center;padding:0px 40px;}
     nav img{width:60px;border-radius:40px}
     .eshocan_nav_links{flex:1;text-align:right}
-    .eshocan_nav_links ul li{list-style:none;display:inline-block;padding:8px 12px;position:relative}
-    .eshocan_nav_links ul li a{font-family: Open Sans;color:#fff;text-decoration:none;font-weight: 600;font-size: 24px;line-height: 33px;}
+    .eshocan_nav_links ul li{position:relative;list-style:none;display:inline-block;padding:8px 12px;position:relative}
+    .eshocan_nav_links ul li a{font-family: Open Sans;color:#fff;text-decoration:none;font-weight:500;font-size: 24px;line-height: 33px;}
     .eshocan_nav_links ul li:after{content:'';width:0;height:2px;background:#f44336;display:block;margin:auto;transition:.5s}
     .eshocan_nav_links ul li:hover:after{width:100%}
     .eshocan_brand_logo{width:80px;height:80px;}
+    .eshocan_nav_lvl-1{display: none;background-color: rgba(0, 0, 0, 0.6);border-radius: 10px;}
+    .eshocan_nav_links ul li:hover a{font-weight: bold;}
+    .eshocan_nav_links ul li:hover  .eshocan_nav_lvl-1{display: block;position: absolute;padding: 20px;}
+    .eshocan_nav_links ul li:hover .eshocan_nav_lvl-1 ul li{display:block;}
+    .eshocan_nav_links ul li:hover .eshocan_nav_lvl-1 ul li a{font-weight: 100;}
+    .eshocan_nav_links ul li .eshocan_nav_lvl-1 ul li::after{content:'';width:0;height:2px;background:#fff;display:block;margin:auto;transition:.5s}
+    .eshocan_nav_links ul li .eshocan_nav_lvl-1 ul li:hover::after{width: 100%;}
 /*Header end*/
 
 /*Hero Section Homepage*/
