@@ -1,6 +1,4 @@
-
 $('.col-sup-mid').hide();
-$('.col-sup-mid.automotive').show();
 $('.side-img').hover(function(){
     $('.col-sup-mid').hide();
     $('#div'+$(this).attr('target')).show();
