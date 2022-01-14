@@ -231,6 +231,35 @@ p{
 .eshocan_all ul li p{padding: 0px;display: inline;}
 /*indusrty end*/
 
+/*blog*/
+.blog-list{margin-top:60px;}
+.blog{display: flex;align-items: center;}
+.blog-img-block{display: flex;align-items: center;width: 70%;justify-content: space-evenly;}
+.blog-img-block img{display: block;width: 100%;}
+.blog-title-block{width: 30%;text-align: center;}
+.blog-content-block{position: relative;overflow: hidden;border-radius: 20px;margin-bottom: 25px;}
+.blog-content-block:last-child{margin-bottom: 0px;}
+.blog-content-block p{font-size: 29px;line-height: 34px;text-align: center;color: #fff;background-color: rgba(0, 0, 0, 0.6);position: absolute;bottom: 0;width: 100%;overflow: hidden;}
+.blog.case-study{flex-direction: row-reverse;}
+.automotive-img{width: 420px;margin: 50px 0 25px auto;}
+
+/*blog end*/
+
+/*People culture*/
+.people-culture{margin-top:60px;}
+.people-culture-block {display: flex;justify-content: space-between;align-items: center;}
+.people-culture-copy-block-heading{font-family: Open Sans;font-style: italic;font-weight: bold; font-size: 25px;line-height: 34px;text-transform: capitalize;color: #505050;}
+.people-culture-copy-block-question{font-family: Open Sans;font-weight: bold; font-size:31px;line-height:42px;text-transform: capitalize;color: #505050;}
+.people-culture-copy-block-copy{font-family: Open Sans;font-weight: normal; font-size:24px;line-height:33px;text-transform: capitalize;color: #AAAAAA;}
+/*People culture end*/
+
+/*testimonial*/
+.partners-testimonal.testimonial{background:url('../img/testimonial.png')  no-repeat;background-size: cover;}
+.partners-testimonal.testimonial .partners-testimonal-block{background:url('../img/testimonial-bg.png') top center no-repeat;}
+.partners-testimonal.testimonial .partners-testimonal-block p {color:#0E4C92;}
+/*testimonial end*/
+
+
 /*Footer*/
     footer{background: #F4FAFF;padding:40px 0px 15px;}
     .eshocan_footer_links_block{padding:0px 40px;margin-bottom: 20px;}
