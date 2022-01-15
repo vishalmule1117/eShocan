@@ -1,8 +1,17 @@
 $('.col-sup-mid').hide();
-$('.side-img').hover(function(){
-    $('.col-sup-mid').hide();
-    $('#div'+$(this).attr('target')).show();
-});
+$('.col-sup-mid.automotive').show();
+$('.side-img').hover(
+    function(){
+        $(this).addClass('active');
+        $('.col-sup-mid').hide();
+        $('#div'+$(this).attr('target')).show();
+    },
+    function(){
+        $(this).removeClass('active')
+        $('#div'+$(this).attr('target')).removeClass('active');
+    },
+    
+);
 
 
 $(document).ready(function(){
@@ -38,5 +47,26 @@ $(document).ready(function(){
         autoplay: false,
         centerMode: true,
         autoplaySpeed: 2000,
+        responsive: [
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
+
+    
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 10) {
+            $(".eshocan_header").addClass("darkHeader");
+        } else {
+            $(".eshocan_header").removeClass("darkHeader");
+        }
     });
 });
+
