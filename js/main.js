@@ -1,5 +1,5 @@
 $('.col-sup-mid').hide();
-$('.col-sup-mid.automotive').show();
+$('.col-sup-mid.active').show();
 $('.side-img').hover(
     function(){
         $(this).addClass('active');
@@ -53,6 +53,7 @@ $(document).ready(function(){
                 settings: {
                     slidesToShow: 1,
                     slidesToShow: 1,
+                    centerMode: false,
                 }
             }
         ]
