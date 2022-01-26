@@ -69,5 +69,15 @@ $(document).ready(function(){
             $(".eshocan_header").removeClass("darkHeader");
         }
     });
+
+
+});
+
+$( ".icon-menu" ).click(function() {
+    $('nav').css("transform", "translate(0%)"); 
+});
+
+$( ".close .fa" ).click(function() {
+    $('nav').css("transform", "translate(200%)"); 
 });
 
