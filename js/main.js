@@ -1,5 +1,5 @@
-$('.col-sup-mid').hide();
 $('.col-sup-mid.active').show();
+$('.col-sup-mid').hide();
 $('.side-img').hover(
     function(){
         $(this).addClass('active');
@@ -9,8 +9,7 @@ $('.side-img').hover(
     function(){
         $(this).removeClass('active')
         $('#div'+$(this).attr('target')).removeClass('active');
-    },
-    
+    },  
 );
 
 
@@ -34,8 +33,9 @@ $(document).ready(function(){
             {
                 breakpoint: 767,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToShow: 1,
+                    slidesToShow: 2,
+                    slidesToShow: 2,
+                    speed: 3000,
                 }
             }
         ]
@@ -79,5 +79,19 @@ $( ".icon-menu" ).click(function() {
 
 $( ".close .fa" ).click(function() {
     $('nav').css("transform", "translate(200%)"); 
+});
+
+$( ".eshocan_nav_links ul li" ).click(function(e) {
+    if ($('.eshocan_nav_lvl-1').is(':visible')) {
+        $(".eshocan_nav_lvl-1").slideUp(300);
+        $(".plusminus").text('+');
+    }
+    if ($(this).find(".eshocan_nav_lvl-1").is(':visible')) {
+        $(this).find(".eshocan_nav_lvl-1").slideUp(300);
+        $(this).children(".plusminus").text('+');
+    } else {
+        $(this).find(".eshocan_nav_lvl-1").slideDown(300);
+        $(this).children(".plusminus").text('-');
+    }
 });
 
