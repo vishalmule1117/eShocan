@@ -1,5 +1,18 @@
-$('.col-sup-mid.active').show();
-$('.col-sup-mid').hide();
+
+$('.col-sup-mid:first-child').css("display","block");
+$('.side-img-video').hover(
+    function(){
+        $(this).addClass('active');
+        $('.Hero_media_big').hide();
+        $('#div'+$(this).attr('target')).show();
+    },
+    function(){
+        $(this).removeClass('active')
+        $('#div'+$(this).attr('target')).removeClass('active');
+    },  
+);
+
+$('.col-sup-mid:first-child').css("display","block");
 $('.side-img').hover(
     function(){
         $(this).addClass('active');
