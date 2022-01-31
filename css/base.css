@@ -190,14 +190,15 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
     .blog{display: block;}
     .blog-title-block, .blog-img-block{width: 95%; margin: 0 auto; display: block;}
     .blog-img-block-child{margin-bottom: 20px;}
-    h2{font-size: 30px;line-height:41px;text-align: center;margin-bottom:20px;}
+    h2{font-size: 30px;line-height:41px;text-align: center;margin-bottom:30px;}
     .partner-client h2 {padding-left:0px;}
     .partners-testimonal-block{padding:35px 20px 15px;margin: 33px 15px 8px;}
-    .partners-testimonal{padding: 40px 0px;}
+    .partners-testimonal{padding: 40px 0px 90px;}
     .blog h2 br{display: none;}
     .automotive-img{margin:25px 0 25px auto; width: 100%;}
     .partners-testimonal.testimonial .testimonial-copy{padding: 0px;}
     .partners-testimonal.testimonial .partners-testimonal-block .block-img{position: inherit;top:auto;right: auto;margin: 0 auto 21px; width: 230px;}
+    .partner-client{padding: 30px 0px;}
     .eshocan_hero_media{ margin-left:0%;transform:rotate(0Deg); -webkit-transform:rotate(0Deg); -moz-transform:rotate(0Deg); -ms-transform:rotate(0Deg); -o-transform:rotate(0Deg); }
     .eshocan_hero_media .video{margin-top:0%;height: 65vh;border-radius: 0%;object-fit: cover;}
     .blog-content-block p {font-size: 22px;line-height: 23px;}
@@ -218,7 +219,7 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
     .hero-btn {font-size: 23px;line-height: 25px;}
     .row{display: block;}
     .col{padding: 0px 0px;}
-    .IndustriesInFocus{padding: 45px 15px 0;}
+    .IndustriesInFocus{padding: 45px 15px 45px;}
     .mobile-block .col{overflow-x: auto;display: flex;overflow-y: hidden;}
     .mobile-block .col p{text-align: center;}
     .col-sup-mid, .col-sup{padding:0px 0px;}
@@ -234,5 +235,7 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
     .close{display: block;text-align:right;padding: 40px 13px;}
     .close .fa{color:#fff;font-size: 22px;}
     .active-menu{max-height: 100%;display:block;}
+    .slick-next{left: 53%;}
+    .slick-prev {left: 38%;}
 }
 /*Responsive CSS end*/
