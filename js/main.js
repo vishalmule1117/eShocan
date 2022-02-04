@@ -1,4 +1,6 @@
 
+
+
 $('.col-sup-mid:first-child').css("display","block");
 $('.side-img-video').hover(
     function(){
@@ -27,6 +29,7 @@ $('.side-img').hover(
 
 
 $(document).ready(function(){
+    // AOS.init();
     $('.partner-slider').slick({
         speed: 5000,
         autoplay: true,
@@ -55,7 +58,7 @@ $(document).ready(function(){
     });
 
     $('.partners-testimonal-slider').slick({
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: false,
         centerMode: true,
