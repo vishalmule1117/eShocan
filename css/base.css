@@ -35,7 +35,6 @@ html {scroll-behavior: smooth;}
     .eshocan_nav_lvl-2{background-color: transparent;margin-top: 11px;padding-left: 20px;}
     .eshocan_nav_links ul li .eshocan_nav_lvl-1 ul li{text-align: left;padding: 8px 0px;display: block;}
     .eshocan_nav_links ul li > .eshocan_nav_lvl-1 ul li a{position: relative; font-size: 18px; line-height: 22px; transition:none; -webkit-transition:none; -moz-transition:none; -ms-transition:none; -o-transition:none; font-weight: 100;}
-    .eshocan_nav_links ul li .eshocan_nav_lvl-1 ul li a::before{ content: ''; display: inline-block;    position: absolute;left: -9px;top: 9px; width:5px; height:5px; background-color:#fff; border-radius:100px ; -webkit-border-radius:100px ; -moz-border-radius:100px ; -ms-border-radius:100px ; -o-border-radius:100px ; }
     .eshocan_nav_links ul li:hover  .eshocan_nav_lvl-1{opacity:1; visibility: visible; -webkit-transform: translateY(9px); transform: translateY(9px); -moz-transform: translateY(9px); -ms-transform: translateY(9px); -o-transform: translateY(9px); }
     .eshocan_nav_links ul li:hover .eshocan_nav_lvl-1 ul li{display:block;}
     .eshocan_nav_links ul li .eshocan_nav_lvl-1 ul li:hover > a::after{width: 100%;}
@@ -61,10 +60,26 @@ html {scroll-behavior: smooth;}
     .eshocan_hero_media_small{display:inline-block;height:10%;margin-left:0}
     .eshocan_hero_media_small img{width:24.5%;border-radius:5%}
     .video{margin-top:-20%;width:180%;height:100vh;border-radius:12%}
-    .hero-btn{font-family: Open Sans;font-size: 20px;line-height:28px;text-decoration-line: underline;color: #FFFFFF;font-weight: 400;    margin-top: 30px;display: block;}
-    .hero-btn span{background-color: #ffff;color: #000;padding: 7px 12px;border-radius: 100px;}
+    .hero-btn{color:#000;font-size: 14px;line-height: 22px;box-shadow:0 0 5px rgb(136 136 136 / 69%);display:inline-flex;border-radius: 100px;justify-content: space-between;padding: 10px;align-items: center;margin-top:15px;}
+    .hero-btn img{margin-right:7px;}
+    .eshocan_hero_main .hero-btn{background-color:#fff ;}
     .fa-arrow-circle-right{margin-left:15px}
 /*Hero Section Homepage end*/
+
+/*Who We Are*/
+.who-we-are-section{padding: 70px;}
+.who-we-are-block{display: flex;justify-content: space-between;}
+.who-we-are-block > div{width: 50%;}
+.who-we-are-list ul li{display: flex;justify-content: flex-start;align-items: center;margin-bottom:30px;}
+.who-we-are-list{padding-left:10%;}
+.who-we-are p{color:#6F6F6F;font-family: Open Sans;font-size: 19px;line-height: 30px;text-align: justify;}
+.who-we-are-list ul li p {color:#6F6F6F;font-family: Open Sans;font-size: 19px;line-height: 30px;}
+.who-we-are-bottom-head{font-family: Open Sans;font-style: normal;color:#0E4C92;font-weight: 600;font-size: 45px; line-height: 61px;text-align: center;text-transform: capitalize;padding:0px;}
+.who-we-are-bottom-copy{font-family: Open Sans;font-style: normal;color:#6F6F6F;font-size: 23px;line-height: 31px;text-align: center;padding:0px;text-transform: capitalize;}
+.who-we-are-bottom ul{ display: flex; justify-content: space-between; align-items: flex-start; }
+.who-we-are-bottom ul li{padding: 15px; transition:all 0.3s ; -webkit-transition:all 0.3s ; -moz-transition:all 0.3s ; -ms-transition:all 0.3s ; -o-transition:all 0.3s ; }
+.who-we-are-bottom ul li:hover{box-shadow:0 0 20px rgb(136 136 136 / 69%);}
+/*Who We Are end*/
 
 /*Industries in Focus*/
 .IndustriesInFocus{text-align:left;padding:100px 35px 0;background:url(../img/industry-focus-bg.png) top center no-repeat;background-size:cover;height:auto}
@@ -82,6 +97,7 @@ html {scroll-behavior: smooth;}
 .col img.active, .col-r img.active{ border: 4px solid #1DA1F2; transition:all 0.3s ; -webkit-transition:all 0.3s ; -moz-transition:all 0.3s ; -ms-transition:all 0.3s ; -o-transition:all 0.3s ; }
 .col-r img{ border: 4px solid transparent;width:120px; height:120px; margin-top:20px; margin-bottom:0; border-radius:23px; -webkit-border-radius:23px; -moz-border-radius:23px; -ms-border-radius:23px; -o-border-radius:23px; }
 p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
+.col p, .col-r p {text-transform: uppercase;}
 
 /*Industries in Focus end*/
 
@@ -149,12 +165,12 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 
 
 /*Footer*/
-    footer{background: #F4FAFF;padding:40px 0px;}
+    footer{background: #F4FAFF;padding:40px 0px 10px;}
     footer .eshocan_brand_logo{width: 80px;height: 80px;}
     .eshocan_footer_links_block{padding:0px 40px;margin-bottom: 20px;}
     .eshocan_footer_links_block{padding:0px 15px;}
     .eshocan_footer_links_block{display: flex;justify-content: space-between;align-items: flex-start;}
-    .eshocan_footer_links_block div{width:33.33%;}
+    .eshocan_footer_links_block div{width:33.33%;padding:0px 20px}
     .eshocan_footer_links_block ul li{margin-bottom: 10px;}
     .eshocan_footer_links_block ul li a{font-family:Open Sans;color:#000000;font-weight:500;font-size: 15px;}
     .eshocan_footer_links_block h2 a{font-family:Open Sans;font-weight: 900;font-size: 20px;line-height: 23px;color: #3F7EB3;margin-bottom: 15px;display: block;}
@@ -164,10 +180,13 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
     .eshocan_social_media ul{display: flex;justify-content:flex-start;align-items: flex-start;}
     .eshocan_social_media ul li {margin-right: 20px;}
     .eshocan_social_media ul li a i{font-size: 30px; color:#000}
-    .eshocan_copy_write{font-family:Open Sans;text-align: center;font-weight: 500;font-size: 12px;line-height: 14px;text-transform: capitalize;color:#000;}
+    .eshocan_copy_write{font-family:Open Sans;text-align: center;font-weight: bold;font-size: 12px;line-height: 14px;text-transform: capitalize;color:#000;}
     .eshocan_footer_copy{padding:0px 0px;}
     .eshocan_footer_links_block h2{text-align: left;margin-bottom: 10px;}
-   
+    .contact-details{margin-top:25px}
+    .contact-details i{color:#3F7EB3; margin-right: 10px;}
+    .contact-location li{display: flex;align-items: center;}
+    .contact-location li img{margin-right: 10px;}
 /*Footer end*/
 
 
@@ -178,11 +197,13 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
     nav.active{ transform:translate(0%); -webkit-transform:translate(0%); -moz-transform:translate(0%); -ms-transform:translate(0%); -o-transform:translate(0%); }
     .eshocan_nav_links{text-align: left;height: 100vh;overflow-x: hidden; overflow-y: scroll;}
     .mobile-block, .plusminus{display: block;}
+    .mobile-block{margin-top:20px}
     .desktop-block{display: none;}
     .icon-menu {display: block;color: #fff;width: 100px;height: 24px;}
+    .people-culture{margin: 60px 0px 40px;}
     .eshocan_header{padding: 0px 0px 0px 10px;align-items: center;display: flex;justify-content: space-between;}
     .people-culture-block, .eshocan_footer_links_block{display: block;}
-    .eshocan_footer_links_block div{width: 100%;}
+    .eshocan_footer_links_block div{width: 100%;padding:0px 0px;}
     .people-culture-img-block img{max-width: 100%;}
     .partners-testimonal-block, .partners-testimonal.testimonial .partners-testimonal-block{background-size: cover;}
     .partners-testimonal.testimonial .partners-testimonal-block{margin: 0px 20px;}
@@ -220,7 +241,7 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
     .eshocan_hero_desc p br{display: none;}
     .eshocan_hero_main{display: block;}
     .eshocan_hero_desc{position: relative;z-index: 999;margin-top:50%;text-align: center;}
-    .hero-btn {font-size: 23px;line-height: 25px;}
+    .hero-btn {font-size:16px;line-height:21px;margin:20px 0px;}
     .row{display: block;}
     .col{padding: 0px 0px;}
     .IndustriesInFocus{padding: 45px 15px 45px;}
@@ -242,5 +263,19 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
     .slick-next{left: 53%;}
     .slick-prev {left: 38%;}
     .eshocan_footer_links_block div{margin-bottom: 15px;}
+    .who-we-are-block{display: block;}
+    .who-we-are-block > div{width: 100%;}
+    .who-we-are-section{padding: 0px 15px;}
+    .who-we-are-bottom ul{flex-wrap: wrap;}
+    .who-we-are-bottom ul li{width: 40%;padding: 5px;margin-bottom: 15px;}
+    .who-we-are-bottom-head{font-size: 27px;line-height: 32px;}
+    .slick-list {padding: 0 0% 0 0% !important;}
+    .slick-prev, .slick-next{bottom: -7%;}
+    .who-we-are-list{padding-left: 0%;margin-top:20px}
+    .who-we-are-list ul li{margin-bottom: 15px;}
+    .who-we-are-bottom-copy{font-size: 17px;line-height: 26px;}
+    .partners-testimonal-block p{    font-size: 17px;line-height: 26px;}
+    .people-culture-copy-block{padding:0px 15px}
+    .col-sup-mid h3{    font-size: 22px;line-height: 28px;}
 }
 /*Responsive CSS end*/
