@@ -1,6 +1,3 @@
-
-
-
 $('.col-sup-mid:first-child').css("display","block");
 $('.side-img-video').hover(
     function(){
@@ -29,7 +26,6 @@ $('.side-img').hover(
 
 
 $(document).ready(function(){
-    // AOS.init();
     $('.partner-slider').slick({
         speed: 5000,
         autoplay: true,
@@ -45,6 +41,7 @@ $(document).ready(function(){
         dots:false,
         pauseOnHover:true,
         pauseOnFocus:true,
+       
         responsive: [
             {
                 breakpoint: 767,
@@ -60,9 +57,11 @@ $(document).ready(function(){
     $('.partners-testimonal-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         centerMode: true,
         autoplaySpeed: 2000,
+        prevArrow:"<img src='img/left-arrow.png' class='prev-arrow' />",
+        nextArrow:"<img src='img/right-arrow.png' class='next-arrow'/>",
         responsive: [
             {
                 breakpoint: 767,
