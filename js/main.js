@@ -33,6 +33,7 @@ $(document).ready(function(){
         cssEase: 'linear',
         slidesToShow: 4,
         slidesToScroll: 1,
+        centerPadding:'80px',
         infinite: true,
         swipeToSlide: true,
         centerMode: true,

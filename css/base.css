@@ -108,7 +108,7 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 /*Partner and client*/
 .partner-client{text-align: left;padding:50px 0px;}
 .partner-client h2{padding-left: 35px;}
-.partner-slider img{margin: 0 auto;}
+.partner-slider img{margin: 0 auto;display: block;max-width: 100%;}
 /*Partner and client end*/
 
 /*Partner Testimonial*/
@@ -156,21 +156,27 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 .why-eshocan .who-we-are-bottom{margin-top: 0px;}
 .why-eshocan-block .who-we-are-bottom ul li{box-shadow:0 0 20px rgb(136 136 136 / 69%);width: 50%; margin: 10px;border-radius: 20px;}
 .why-eshocan-copy{font-size: 18px; line-height:30px;color:#0E4C92;}
-.project-discuss{padding: 70px;display: flex;justify-content: space-between;background-color: #F2F2F2;}
+.project-discuss{padding: 70px;display: flex;justify-content: space-between;background: url(../img/discuss-bg.png)top no-repeat; background-size: 100% 100%;}
 .project-discuss-block{width: 50%;}
+.project-discuss h2{font-size: 48px;color:#fff;}
 .project-discuss-block .project-disccuss-form{display: flex;justify-content: space-between;}
+.discuss-form{background: url(../img/discuss-form-bg.png)top no-repeat; background-size: 100% 100%;padding: 60px;}
 .form-block-group{width: 50%;margin-bottom: 10px;}
 .form-group{margin-bottom: 15px;}
 .form-group label{display: block;color: #0E4C92; margin-bottom: 5px;font-weight: bold;}
 .form-group input{width:90%;height:30px;padding:5px;border: 0px;background-color: #eee;font-size: 14px;}
-.form-group textarea{border: 0px;background-color: #eee;}
+.form-group textarea{border: 0px;background-color: #eee;padding: 5px;font-size: 16px;}
 .form-block-group-accept .form-group{display: flex;}
 .form-block-group-accept .form-group input{width:35px;height:35px;}
 .form-block-group-accept .form-group p{padding:0px 10px;font-size: 13px;}
 .form-block-group-accept .form-group input[type="submit"]{width: auto;background-color:#fff;padding: 15px 45px;font-size:22px;color:#1DA1F2;border:1px solid #1DA1F2; border-radius: 100px;height: auto;}
 .form-group-submit{display: flex;justify-content: end;}
-
-
+.project-discuss-head p {font-size: 24px;line-height: 32px;color: #fff;}
+.automative-expertise{padding: 70px;}
+.automative-img-block{position: relative;padding: 10px;}
+.automative-expertise-block-parent{display: flex;justify-content: space-between;}
+.img-content{position: absolute;transform: translate(0px, -50px);top: 50%;width: 100%;text-align: center;}
+.img-content-head{font-size: 22px;line-height: 32px;color: #fff;}
 /*indusrty end*/
 
 
@@ -240,6 +246,13 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 /*Responsive CSS*/
 
 @media(max-width: 991px) {
+    .industries-info, .why-eshocan, .project-discuss, .automative-expertise {padding: 50px 20px;}
+    .industries-info-block, .why-eshocan-parent, .project-discuss, .project-discuss,
+    .project-discuss-block .project-disccuss-form{display: block;}
+    .form-block-group{width: 100%;}
+    .discuss-form{padding:15px;}
+    .why-eshocan-block, .why-eshocan-block .who-we-are-bottom ul li, .project-discuss-block{width: 100%;}
+    .industries-info-block img{display: block;max-width: 100%;}
     .eshocan_header .mobile-block{margin-top:0px;}
     nav{ padding: 0px 0px;  position: fixed;top: 0;right: 0;width: 20rem;z-index: 1099; overflow-x: hidden; overflow-y: scroll; background-color: #000; transform:translate(200%) ; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transform:translate(200%) ; -moz-transform:translate(200%) ; -ms-transform:translate(200%) ; -o-transform:translate(200%) ; }
     nav.active{ transform:translate(0%); -webkit-transform:translate(0%); -moz-transform:translate(0%); -ms-transform:translate(0%); -o-transform:translate(0%); }
