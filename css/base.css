@@ -176,7 +176,16 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
 .automative-img-block{position: relative;padding: 10px;}
 .automative-expertise-block-parent{display: flex;justify-content: space-between;}
 .img-content{position: absolute;transform: translate(0px, -50px);top: 50%;width: 100%;text-align: center;}
-.img-content-head{font-size: 22px;line-height: 32px;color: #fff;}
+.img-content-head{font-size: 22px;line-height: 32px;color: #fff;margin-bottom: 20px;}
+.img-content .img-content-copy {color:#fff;padding: 0px 50px;display: none;}
+.img-on{display: none; backface-visibility: hidden; }
+.img-off{display: block;}
+.automative-img-block .img-content .hero-btn {background-color: #fff;display: none;}
+.automative-img-block:hover .img-off, .automative-img-block:hover  .img-content img{display: none;}
+.automative-img-block:hover .img-on{display: block; transform: rotateY(0deg);  transition: transform 0.3s ease-out;transform-style: preserve-3d;}
+.automative-img-block:hover .img-content .img-content-copy {display: block;}
+.automative-img-block:hover .img-content .hero-btn img{display: block;}
+.automative-img-block:hover .img-content .hero-btn {display: inline-flex;}
 /*indusrty end*/
 
 /*Services*/
@@ -270,7 +279,9 @@ p{color:#777;font-size:14px;font-weight:300;line-height:22px;padding:10px}
     .in-vehicale-section .in-vehicale-block:last-child{width:auto;}
     .in-vehicale-section .in-vehicale-block{width: auto;}
     .form-block-group{width: 100%;}
-    .automative-img-block img{max-width: 100%; display: block;margin: 0 auto;}
+    .automative-img-block img{max-width: 100%;margin: 0 auto;}
+    .project-discuss h2 {font-size: 34px;line-height: 50px;}
+    .automative-img-block:hover .img-content{top:37%;}
     .discuss-form{padding:40px 15px;}
     .why-eshocan-block, .why-eshocan-block .who-we-are-bottom ul li{width: 100%;}
     .project-discuss-block{width: auto;}
